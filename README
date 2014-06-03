@@ -1,0 +1,15 @@
+This file can be run with Z3Py as:
+
+> teaparty.py <input_file> <output_file>
+
+where the format of the contents of <input_file> must be:
+
+<switch distance S>
+<sequence of occupied seats (i n), indicating guest i is at seat n>
+<guests that must change places>
+
+For example, a valid input file may look like:
+
+4
+(0 0) (1 4) (2 5) (3 7)
+1 2 3
